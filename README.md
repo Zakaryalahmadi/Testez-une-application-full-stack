@@ -17,8 +17,6 @@ Avant de commencer, assurez-vous d’avoir installé :
 - Node.js
 - Angular CLI
 
-### Autres :
-- Docker (optionnel pour l'environnement de base de données)
 
 ---
 
