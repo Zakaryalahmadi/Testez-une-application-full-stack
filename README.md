@@ -76,9 +76,9 @@ Exécuter les tests unitaires et d’intégration :
 `mvn jacoco:report`
 
 
-#✅ Tests Frontend
+# ✅ Tests Frontend
 
-##Exécuter les tests unitaires :
+## Exécuter les tests unitaires :
 `npm run test`
 
 ## Lancer les tests en mode surveillance :
