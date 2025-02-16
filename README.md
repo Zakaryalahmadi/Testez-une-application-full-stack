@@ -25,14 +25,6 @@ Avant de commencer, assurez-vous d’avoir installé :
 Le projet est configuré pour utiliser **H2** en mémoire pour les tests **end-to-end**. Pour la production, **MySQL** est utilisé. Voici les configurations selon l'environnement :
 
 #### Pour la production (MySQL)
-Modifiez le fichier `application.properties` pour utiliser MySQL :
-
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/test?allowPublicKeyRetrieval=true
-spring.datasource.username=user
-spring.datasource.password=123456
-spring.jpa.hibernate.ddl-auto=update
-```
 
 ```
 CREATE DATABASE test;
