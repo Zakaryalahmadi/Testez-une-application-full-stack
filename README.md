@@ -78,24 +78,24 @@ Exécuter les tests unitaires et d’intégration :
 
 # ✅ Tests Frontend
 
-## Exécuter les tests unitaires :
+### Exécuter les tests unitaires :
 `npm run test`
 
-## Lancer les tests en mode surveillance :
+### Lancer les tests en mode surveillance :
 `npm run test:watch`
 
-## Analyser la qualité du code :
+### Analyser la qualité du code :
 `npm run lint`
 
 # ✅ Tests End-to-End
-## Lancer les tests E2E avec Cypress (avec H2 en mémoire) :
+### Lancer les tests E2E avec Cypress (avec H2 en mémoire) :
 `npm run cypress:open`
 
 
-## Exécuter les tests E2E en mode CI :
+### Exécuter les tests E2E en mode CI :
 `npm run e2e:ci`
 
-## Générer un rapport de couverture des tests E2E :
+### Générer un rapport de couverture des tests E2E :
 
 `npm run e2e:coverage`
 
