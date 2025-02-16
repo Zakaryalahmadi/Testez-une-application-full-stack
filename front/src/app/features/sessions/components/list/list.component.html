@@ -10,7 +10,7 @@
     <div class="items mt2" fxLayout="row wrap" fxLayout.lt-md="column">
       <mat-card class="item" *ngFor="let session of (sessions$ | async)" fxFlex>
         <mat-card-header>
-          <mat-card-title>{{ session.name }}</mat-card-title>
+          <mat-card-title data-test="session-name" >{{ session.name }}</mat-card-title>
           <mat-card-subtitle>
             Session on {{ session.date | date: 'longDate'}}
           </mat-card-subtitle>

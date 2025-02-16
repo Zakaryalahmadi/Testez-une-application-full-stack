@@ -27,9 +27,9 @@ export class LoginComponent {
       '',
       [
         Validators.required,
-        Validators.min(3)
+        Validators.minLength(3) //Modifié car aucun sens de mettre min
       ]
-    ]
+    ],
   });
 
   constructor(private authService: AuthService,
@@ -40,6 +40,7 @@ export class LoginComponent {
 
   public submit(): void {
     const loginRequest = this.form.value as LoginRequest;
+
     this.authService.login(loginRequest).subscribe({
       next: (response: SessionInformation) => {
         this.sessionService.logIn(response);
