@@ -69,9 +69,10 @@ Accéder au site :
 Exécuter les tests unitaires et d’intégration :
 
 `./mvnw test`
-Générer le rapport de couverture avec JaCoCo :
 
 
+
+### Générer le rapport de couverture avec JaCoCo :
 `mvn jacoco:report`
 
 
